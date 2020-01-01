@@ -31,11 +31,11 @@ def using_insert(array, element)
 end
 
 def using_uniq(array)
-  return array.unique()
+  return array.uniq()
 end
 
 def using_flatten(array)
-  return array.flaten()
+  return array.flatten()
 end
 
 def using_delete(array, string)
